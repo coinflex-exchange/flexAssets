@@ -1,14 +1,14 @@
-# FlexAssets contract code for Ethereum
+# FlexAssets Contract Code For Ethereum
 
 These contracts work together to create an upgradeable contract representing an underlying asset such as USDC, BTC or ETH that can be paid interest through a rebase. User balances go up automatically as the underlying assets [earn interest](https://coinflex.com/blog/coinflex-launches-interest-bearing-stablecoin/) on the Coinflex exchange.
 
-All flexAssets can be minted or redeemed on the [Coinflex flexAssets](https://coinflex.com/flexassets) portal. The assets are put at work in the Coinflex repo orderbook enabling a tight connection between Coinflex's [deliverable perpetual contracts](https://coinflex.com/support/deliverable-perpetual-futures/) and the spot market. An [FAQ is available](https://coinflex.com/support/2-2-7-flexassets/).
+All flexAssets can be minted or redeemed on the [CoinFLEX flexAssets](https://coinflex.com/flexassets) portal. The assets are put at work in the CoinFLEX repo orderbook enabling a tight connection between CoinFLEX's [deliverable perpetual contracts](https://coinflex.com/support/deliverable-perpetual-futures/) and the spot market. An [FAQ is available](https://coinflex.com/support/2-2-7-flexassets/).
 
-flexAssets can be withdrawn from the exchange at any time and used as a means of payment or for trading purposes, all while earning interest automatically through the exchange.
+flexAssets can be withdrawn from the exchange at any time and used as a means of payment or used as capital for trading purposes, all the while earning interest automatically through the exchange.
 
-## Smart contract notes
+## Smart Contract Notes
 
-Coinflex pays interest by rebasing balances for all addresses. The contract enforces the condition that balances can only go up. 
+CoinFLEX pays interest by rebasing balances for all addresses. The contract enforces the condition that balances can only go up. 
 
 At present flexUSD, flexBTC and flexETH have been deployed. They are available on Etherscan at the following addresses:
 
